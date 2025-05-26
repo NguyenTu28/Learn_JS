@@ -1,0 +1,173 @@
+# Bài tập JavaScript từ cơ bản đến nâng cao
+
+## Cấp độ 1: Khởi đầu (Biến, kiểu dữ liệu, toán tử)
+
+1. Khai báo một biến `name` và gán giá trị là tên của bạn. In ra màn hình câu chào "Xin chào [tên]!" 2.5d
+
+2. Tạo ba biến `a`, `b`, `c` với giá trị số bất kỳ. Tính và in ra tổng, hiệu, tích, thương của chúng. 1d
+
+3. Viết chương trình kiểm tra một số có phải là số chẵn hay lẻ. 2.5d
+
+4. Tạo một biến boolean `isStudent` và in ra thông báo tương ứng. --sau se lam lai
+
+5. Khai báo các biến với các kiểu dữ liệu khác nhau (string, number, boolean, undefined, null) và sử dụng `typeof` để kiểm tra kiểu của chúng. 2.5
+
+## Cấp độ 2: Điều kiện và vòng lặp
+
+6. Viết chương trình so sánh hai số và in ra số lớn hơn.
+
+7. Tạo một chương trình tính điểm xếp loại học sinh (A, B, C, D, F) dựa trên điểm số.
+
+8. Viết vòng lặp in ra các số từ 1 đến 10.
+
+9. Tính tổng các số từ 1 đến 100 bằng vòng lặp.
+
+10. In ra bảng cửu chương của một số nhập vào.
+
+11. Viết chương trình đếm số lượng số chẵn từ 1 đến 50.
+
+12. Tạo một tam giác sao có chiều cao n dòng.
+
+## Cấp độ 3: Hàm (Functions)
+
+13. Viết hàm tính diện tích hình tròn với bán kính cho trước.
+
+14. Tạo hàm kiểm tra một số có phải là số nguyên tố không.
+
+15. Viết hàm tính giai thừa của một số.
+
+16. Tạo hàm chuyển đổi nhiệt độ từ Celsius sang Fahrenheit và ngược lại.
+
+17. Viết hàm tìm số lớn nhất trong ba số.
+
+18. Tạo hàm tính số Fibonacci thứ n.
+
+19. Viết hàm kiểm tra một chuỗi có phải là palindrome (đọc xuôi ngược như nhau) không.
+
+## Cấp độ 4: Mảng (Arrays)
+
+20. Tạo một mảng số và tính tổng các phần tử trong mảng.
+
+21. Tìm số lớn nhất và nhỏ nhất trong một mảng.
+
+22. Đảo ngược thứ tự các phần tử trong mảng mà không dùng phương thức reverse().
+
+23. Loại bỏ các phần tử trùng lặp trong một mảng.
+
+24. Tìm phần tử xuất hiện nhiều nhất trong mảng.
+
+25. Sắp xếp mảng theo thứ tự tăng dần mà không dùng sort().
+
+26. Tạo hàm nhận vào hai mảng và trả về mảng chứa các phần tử chung.
+
+27. Chia một mảng thành các mảng con có kích thước n.
+
+## Cấp độ 5: Chuỗi (Strings)
+
+28. Đếm số lượng từ trong một câu.
+
+29. Viết hàm chuyển đổi chữ cái đầu mỗi từ thành chữ hoa.
+
+30. Kiểm tra một chuỗi có chứa chuỗi con khác không (không dùng includes()).
+
+31. Đảo ngược từng từ trong một câu nhưng giữ nguyên thứ tự các từ.
+
+32. Loại bỏ các ký tự đặc biệt khỏi chuỗi, chỉ giữ lại chữ cái và số.
+
+33. Tìm ký tự xuất hiện nhiều nhất trong một chuỗi.
+
+34. Nén chuỗi: "aaabbc" → "a3b2c1".
+
+## Cấp độ 6: Đối tượng (Objects)
+
+35. Tạo object `person` với các thuộc tính name, age, city và các phương thức giới thiệu bản thân.
+
+36. Viết hàm sao chép sâu (deep copy) một object.
+
+37. Tạo object `calculator` với các phương thức cộng, trừ, nhân, chia.
+
+38. Viết hàm so sánh hai object xem có giống nhau không.
+
+39. Tạo một mảng các object student và viết hàm tìm học sinh có điểm cao nhất.
+
+40. Implement một object `BankAccount` với các phương thức deposit, withdraw, checkBalance.
+
+## Cấp độ 7: Array Methods nâng cao
+
+41. Sử dụng `map()` để tạo mảng mới chứa bình phương của các số trong mảng gốc.
+
+42. Dùng `filter()` để lọc ra các số chẵn từ một mảng.
+
+43. Sử dụng `reduce()` để tính tích của các số trong mảng.
+
+44. Kết hợp `map()`, `filter()`, `reduce()` để xử lý một mảng object phức tạp.
+
+45. Viết hàm group các object theo một thuộc tính nhất định.
+
+46. Sử dụng `some()` và `every()` để kiểm tra điều kiện trong mảng.
+
+## Cấp độ 8: DOM Manipulation
+
+47. Tạo trang HTML với button, khi click sẽ thay đổi màu nền trang.
+
+48. Tạo danh sách to-do với khả năng thêm, xóa, đánh dấu hoàn thành.
+
+49. Tạo form đăng ký với validation (kiểm tra email, mật khẩu, v.v.).
+
+50. Tạo slide show ảnh với nút next/previous.
+
+51. Implement một máy tính đơn giản với giao diện web.
+
+52. Tạo game "Đoán số" với giao diện HTML.
+
+## Cấp độ 9: Xử lý bất đồng bộ (Async)
+
+53. Viết hàm sử dụng `setTimeout()` để tạo delay.
+
+54. Tạo Promise để simulate việc gọi API.
+
+55. Sử dụng `async/await` để xử lý nhiều Promise tuần tự.
+
+56. Fetch dữ liệu từ API công khai và hiển thị trên trang web.
+
+57. Xử lý lỗi khi gọi API bằng try/catch.
+
+58. Tạo hàm retry khi API call thất bại.
+
+## Cấp độ 10: Nâng cao
+
+59. Implement design pattern Module để tạo namespace cho code.
+
+60. Tạo class `Vehicle` và các class con `Car`, `Motorcycle` kế thừa từ nó.
+
+61. Viết code sử dụng closure để tạo private variables.
+
+62. Implement một cache system đơn giản với expiration time.
+
+63. Tạo event system cho phép subscribe/unsubscribe events.
+
+64. Viết code để detect memory leaks trong JavaScript.
+
+65. Implement debounce và throttle functions.
+
+66. Tạo một mini framework để quản lý state đơn giản.
+
+67. Viết parser để convert JSON string thành object mà không dùng JSON.parse().
+
+68. Implement một scheduler để chạy tasks theo priority.
+
+## Cấp độ 11: Thách thức
+
+69. Tạo một trò chơi Tic-tac-toe hoàn chỉnh với AI đơn giản.
+
+70. Implement thuật toán sorting visualization (bubble sort, merge sort).
+
+71. Tạo một text editor đơn giản với undo/redo functionality.
+
+72. Viết code để solve Sudoku puzzle.
+
+73. Implement một virtual DOM đơn giản.
+
+74. Tạo một image gallery với lazy loading và infinite scroll.
+
+75. Viết code để analyze và visualize dữ liệu từ CSV file.
