@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Điều kiện và vòng lặp</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <script>
+    // So sánh hai số, in ra số lớn hơn
+    document.write("Bài tập 1: So sánh hai số" + "<br>")
+     let a = Number(prompt("Nhập số thứ nhất: ")),
+        b = Number(prompt("Nhập số thứ hai: "));
+        while (isNaN(a) == true || isNaN(b) == true) {
+            alert("Nhập lại 2 số a và b.");
+            a = Number(prompt("Nhập số thứ nhất: ")),
+            b = Number(prompt("Nhập số thứ hai: "));
+        }
+        document.write("So sánh hai số "  + a + " và " + b +": ");
+        if (a>b){
+            document.write("Số lớn hơn là: " + a +"<br>");
+        }
+        else if (a<b){
+            document.write("Số lớn hơn là " + b + "<br>");
+        }
+        else{
+            document.write("Hai số bằng nhau.")
+        }
+    </script>
+</body>
+</html>
